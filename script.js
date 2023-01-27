@@ -2,7 +2,7 @@ const array = [];
 // length of array
 let length = 6;
 let sizeOfIndex = length - 1;
-let last = 2;
+let last = 0;
 // lf length -1 is the last index then a space is empty i
 // the last position in array that is filled
 
@@ -26,7 +26,9 @@ function isAdd() {
   let empty = isEmpty();
   let full = isFull();
   if (empty === true && full === false) {
+    array.push(1)
     return last+=1;
+
   } else {
     return false;
   }
