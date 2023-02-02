@@ -26,9 +26,7 @@ function isAdd() {
   let empty = isEmpty();
   let full = isFull();
   if (empty === true && full === false) {
-    array.push(1)
-    return last+=1;
-
+    return (last += 1), length++;
   } else {
     return false;
   }
